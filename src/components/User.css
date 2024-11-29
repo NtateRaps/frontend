@@ -1,0 +1,103 @@
+/* User.css */
+
+.user-management {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for readability */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color: #2980b9; /* Blue header color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #dcdcdc;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.user-table th {
+  background-color: #aed6f1; /* Light blue header */
+  color: #1a5276; /* Dark blue text */
+}
+
+.user-table td input[type="text"] {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #3498db; /* Blue border for input fields */
+  border-radius: 4px;
+}
+
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn { 
+  background-color: #27ae60; /* Green for Save */
+}
+
+.save-btn:hover {
+  background-color: #219150; /* Darker green on hover */
+}
+
+.cancel-btn {
+  background-color: #e67e22; /* Orange for Cancel */
+}
+
+.cancel-btn:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+.edit-btn {
+  background-color: #3498db; /* Sky blue for Edit */
+}
+
+.edit-btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.delete-btn {
+  background-color: #e74c3c; /* Red for Delete */
+}
+
+.delete-btn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-buttons button {
+  flex: 1;
+  margin: 0 5px; /* Space between navigation buttons */
+}
+
+/* Override the last button styles */
+.nav-buttons button:last-child {
+  margin-right: 0;
+}

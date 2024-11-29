@@ -1,0 +1,118 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #4CAF50; /* or any background color you prefer */
+  padding: 10px;
+  z-index: 10;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional: adds a shadow */
+  background-color: #62f366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    .logo{
+      font-size: 1.4em;
+      font-weight: bolder;
+      color: var(--primary-color);
+      text-shadow: 0 1px 3px var(--shadow-color) ;
+      span{
+        color: var(--text-color);
+      }
+
+    }
+}
+a{
+  text-decoration: none;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav-button {
+  margin-right: 10px;
+}
+
+.logout-button {
+  background-color: #f44336;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+:root{
+  --background-color: #fff;
+  --background-light: #fff;
+  --animation-speed: 1 ;
+  --shadow-color: rgba(0,0,0,0.2);
+  --primary-color: rgb(255, 0, 86);
+  --text-light: #575757;
+  --text-color: #0A0A0A;
+  --font-size: 16px;
+}
